@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <video class="videoDoor hidden" src="photo/openDoor_Trim.mp4" autoPlay></video>
+    <script>
+        setTimeout(() => document.querySelector("video").classList.remove("hidden"), 3000);
+        setTimeout(() => document.querySelector("video").classList.add("hidden"), 13000);
+        setTimeout(() => window.location.href = "endBad.html", 16000)
+
+    </script>
+</body> 
+</html>

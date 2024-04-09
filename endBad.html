@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <h1 class="hidden">Плохая концовка</h1> 
+    <img class="hidden" src="photo/vanyaBad.jpeg" height="400px" width="330px">
+    <script>
+        setTimeout(() => document.querySelector("img").classList.remove("hidden"), 2500);
+        setTimeout(() => document.querySelector("h1").classList.remove("hidden"), 2500);
+        setTimeout(() => document.querySelector("img").classList.add("hidden"), 8500);
+        setTimeout(() => document.querySelector("h1").classList.add("hidden"), 8500);
+    </script>
+</body> 
+</html>

@@ -1,0 +1,352 @@
+@font-face {
+    font-family: "VHS";
+    src: url(fonts/vcrosdmonorus_vhsicons.ttf);
+}
+
+html { 
+    color: whitesmoke;
+    text-align: center; 
+    background: black; 
+} 
+ 
+h1 { 
+    font-family: "VHS";
+    font-size: 35px; 
+    margin-top: 3%; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    
+} 
+ 
+
+a {
+    font-family: "VHS";
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 50px; 
+    text-decoration: none;
+}
+
+.begin {
+    margin-top: 20%;
+}
+
+img {
+    margin-top: 8%;
+    
+   
+}
+
+
+form { 
+    display: inline; 
+} 
+ 
+p { 
+    font-family: "VHS";
+    font-size: 35px; 
+    color: whitesmoke;
+    text-align: center; 
+    vertical-align: auto; 
+} 
+ 
+.firs { 
+    margin-top: 17%; 
+    
+} 
+
+.index {
+    color: whitesmoke;
+}
+ 
+
+.genretwo {
+    margin-top: 12%;
+}
+.genrethree {
+    font-size: 23px;
+}
+
+.genrefour {
+    margin-top: 5%;
+}
+
+.genrefive {
+    margin-top: 20%;
+}
+
+.question {
+    
+    margin-top: 13%;
+    font-size: 40px;
+
+}
+
+.button {
+    font-size: 43px;
+    margin-top: 7%;
+    margin-right: 17%;
+}
+
+.button2 {
+    font-size: 43px;
+}
+
+.button:hover {
+    color: rgb(207, 197, 2);
+}
+
+.button2:hover {
+    color: rgb(207, 197, 2);
+}
+
+.hidden { 
+    display: none; 
+}
+
+.henre {
+    margin-bottom: 0.5%;
+    font-size: 63px;
+}
+
+.red {
+    color: rgb(144, 9, 9);
+}
+
+.attention {
+    margin-top: 10%;
+    font-size: 28px;
+}
+
+.ienre {
+    margin-top: 1%;
+}
+
+video {
+    height: 60%;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.textvideo {
+   
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 0.7%;
+}
+
+.videoQtext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 2%;
+}
+
+.videoQbut {
+    position: absolute;
+    margin-top: 37%;
+    margin-right: 8.5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: -9%;
+    
+}
+
+.videoQbut2 {
+    position: absolute;
+    margin-top: 37%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: 9%; 
+}
+
+.audio {
+    margin-top: -40%;
+}
+
+.OpDoor {
+    width: 32%;
+    height: 32%;
+    
+}
+
+.end {
+    margin-top: 10%;
+}
+
+.redBut:hover {
+    color: rgb(144, 9, 9);
+}
+
+.videoDoor {
+    width: 700px;
+    height: 700px;
+    margin-top: -2%;
+}
+
+.author {
+    margin-top: 21%;
+}
+
+.authorP {
+    font-style: italic;
+    font-size: 11px;
+}
+/* 
+p { 
+    color: white; 
+    border-color: black; 
+    margin-bottom: -10px; 
+    font-size: 17px; 
+    font-style: italic; 
+} 
+
+ 
+
+ 
+.a { 
+    background-image: url(photo/a.png); 
+} 
+ 
+.aa { 
+    background-image: url(photo/aa.png); 
+} 
+ 
+.b { 
+    background-image: url(photo/b.png); 
+} 
+ 
+.bb { 
+    background-image: url(photo/bb.png); 
+} 
+ 
+.c { 
+    background-image: url(photo/c.png); 
+} 
+ 
+.cc { 
+    background-image: url(photo/cc.png); 
+} 
+ 
+.d { 
+    background-image: url(photo/d.png);
+} 
+ 
+.dd { 
+    background-image: url(photo/dd.png); 
+} 
+ 
+.e { 
+    background-image: url(photo/e.png); 
+} 
+ 
+.ee { 
+    background-image: url(photo/ee.png); 
+} 
+ 
+ 
+<form action="vresh.html" target="_blank"> 
+        <button class="fu">Да</button> 
+    </form> 
+    <form action="genre.html" target="_blank"> 
+        <button class="fu">Нет</button> 
+    </form> 
+
+ 
+.fu { 
+    height: 100px; 
+    width: 300px; 
+    margin-top: 400px; 
+} 
+ 
+.fut { 
+    margin-left: -38px; 
+} 
+ 
+.imgSec { 
+     
+    margin-top: 200px; 
+ 
+} 
+ 
+.hidden { 
+    display: none; 
+}
+
+.imgA { 
+    cursor: pointer; 
+    border: none; 
+    position: absolute;
+    border-radius: 0;  
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: -33%;
+} 
+ 
+.imgB { 
+    cursor: pointer; 
+    border: none; 
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 0; 
+    width: 450px; 
+    height: 450px; 
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 4%;
+    
+    
+    
+} 
+
+*/
+
+/*
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <h1 class="hidden">Сделай выбор</h1> 
+    <form action="2.html"> 
+        <button class="imgA a hidden fir"></button> 
+        <button class="imgB aa hidden sec"></button> 
+    </form> 
+    <script src="script2.js"></script> 
+</body> 
+</html>
+ button { 
+    font-family: "VHS";
+    margin-top: 7%;
+    color: whitesmoke;
+    display: inline-block; 
+    margin-right: 2.3%;
+    padding: 1rem 1.5rem; 
+    height: 105px; 
+    width: 300px; 
+    font-size: 22px; 
+
+} 
+
+setTimeout(function() {  
+    document.querySelector(".fir").classList.remove("hidden") 
+}, 1000); 
+ 
+setTimeout(function() {  
+    document.querySelector(".sec").classList.remove("hidden") 
+}, 2000); 
+
+setTimeout(function() {  
+    document.querySelector("h1").classList.remove("hidden") 
+}, 2900); 
+
+//<button class="imgA aa"></button>
+*/

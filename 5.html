@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <h1 class="hidden">Смотри</h1> 
+    <img class="hidden" src="photo/five.jpg">
+    <script>
+        setTimeout(() => document.querySelector("img").classList.remove("hidden"), 2000);
+        setTimeout(() => document.querySelector("h1").classList.remove("hidden"), 3000);
+        setTimeout(() => window.location.href = "5q.html", 10000);
+    </script>
+</body> 
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <audio src="music/zvuk-tjazhelogo-dyhanija.mp3" autoPlay></audio>
+    <p class="hidden question">. . .</p>
+    <a class="hidden button" href="7.html">да</a>
+    <a class="hidden button2" href="7.html">нет</a>
+    <script>
+        setTimeout(() => document.querySelector("p").classList.remove("hidden"), 2000);
+        setTimeout(() => document.querySelector(".button").classList.remove("hidden"), 2800);
+        setTimeout(() => document.querySelector(".button2").classList.remove("hidden"), 2800);
+        document.querySelector("audio").volume = 0.15;
+    </script>
+</body> 
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <p class="hidden question">Ты видел <strong class="red">СМЕРТЬ</strong>?</p>
+    <a class="hidden button" href="8.html">да</a>
+    <a class="hidden button2" href="8.html">нет</a>
+    <p class="attention"><strong class="hidden red at">НЕ ОТКРЫВАЙ ДВЕРЬ&nbsp;&nbsp;</strong> <strong class="hidden red at">НЕ ОТКРЫВАЙ ДВЕРЬ&nbsp;&nbsp;</strong>  <strong class="hidden red at">НЕ ОТКРЫВАЙ ДВЕРЬ&nbsp;&nbsp;</strong> <strong class="hidden red at">НЕ ОТКРЫВАЙ ДВЕРЬ&nbsp;&nbsp;</strong></p>
+    
+    <script>
+        setTimeout(() => document.querySelector("p").classList.remove("hidden"), 1000);
+        setTimeout(() => document.querySelector(".button").classList.remove("hidden"), 1800);
+        setTimeout(() => document.querySelector(".button2").classList.remove("hidden"), 1800);
+        let collection = document.querySelectorAll(".at");
+        for (let el of collection) {
+            setTimeout(() => el.classList.remove("hidden"), 2400); 
+            setTimeout(() => el.classList.add("hidden"), 3300);
+        }
+        
+    </script>
+</body> 
+</html>

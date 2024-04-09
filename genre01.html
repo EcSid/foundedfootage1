@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body>  
+    
+    <img src="photo/remember.jpg" class="hidden">
+    <p class="hidden" >смотрите внимательно</p>
+
+    <script>
+        setTimeout(function() {  
+         document.querySelector("p").classList.remove("hidden") 
+        }, 3000); 
+
+        setTimeout(function() {  
+                    document.querySelector("img").classList.remove("hidden") 
+        }, 1300); 
+
+        setTimeout(function() {  
+            window.location.href = "genre2.html";
+        }, 9000); 
+    </script>
+</body> 
+</html>

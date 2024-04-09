@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <a href="videoQ.html" class="hidden textvideo">Продолжить</a>
+    <video src="photo/video.mp4" controls></video>
+    <script>
+        setTimeout(() => document.querySelector("video").classList.remove("hidden"), 3000);
+        const video = document.querySelector("video");
+        video.controlsList = "noplaybackrate"; 
+        setTimeout(() => document.querySelector("a").classList.remove("hidden"), 16000);
+    </script>
+</body> 
+</html>

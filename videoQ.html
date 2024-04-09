@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <p class="hidden question videoQtext">Ты видел его на видео?</p>
+    <img class="hidden" src="photo/scary2.jpg">
+        <a class="hidden button videoQbut" href="videoQQ.html">да</a>
+        <a class="hidden button2 videoQbut2" href="videoQQ.html">нет</a>
+
+    <script>
+        setTimeout(() => document.querySelector("img").classList.remove("hidden"), 2000);
+        setTimeout(() => document.querySelector("p").classList.remove("hidden"), 4000);
+        setTimeout(() => document.querySelector(".button").classList.remove("hidden"), 5000);
+        setTimeout(() => document.querySelector(".button2").classList.remove("hidden"), 5000);
+    </script>
+</body> 
+</html>

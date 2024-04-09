@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body>   
+    <div class="ienre hidden">
+        <p class="henre">Поздравляем!</p>
+        <br>
+        <p>Вы <strong>выжили</strong> и прошли второй этап диагностики.<p>
+        <p>В следующем этапе вам будет предложено видео, после которого</p>
+        <p>вы также должны ответить на вопросы, соответствующие</p>
+        <p>содержанию данного видеоролика.</p>
+        <br>
+        <p>Наши советы: не оборачивайтесь на звуки,</p>
+        <p>закройте все окна и двери.</p>
+    </div>
+    <script>
+        setTimeout(() => document.querySelector('div').classList.remove("hidden"), 1000);
+        setTimeout(() => window.location.href = "ienre1.html", 15500)
+    </script>
+</body> 
+</html>

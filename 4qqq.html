@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body> 
+    <p class="hidden question">Ты один?</p>
+    <a class="hidden button" href="henre.html">да</a>
+    <a class="hidden button2" href="henre.html">нет</a>
+    <script>
+        setTimeout(() => document.querySelector("p").classList.remove("hidden"), 1000);
+        setTimeout(() => document.querySelector(".button").classList.remove("hidden"), 3300);
+        setTimeout(() => document.querySelector(".button2").classList.remove("hidden"), 3300);  
+    </script>
+</body> 
+</html>

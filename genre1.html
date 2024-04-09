@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link rel="stylesheet" href="ind.css"> 
+</head> 
+<body>   
+    <div class="genretwo hidden">
+        <p>В данном тестировании, предназначенном для людей</p> 
+        <p>с психическими отклонениями, будут показаны аномальные<p>
+        <p>фотографии, которые многим кажутся знакомыми.</p>
+        <p>Через несколько секунд вы увидите наглядный </p>
+        <p>пример такого изображения.</p>
+    </div>
+    <script>
+        setTimeout(() => document.querySelector('div').classList.remove("hidden"), 1000);
+        setTimeout(() => window.location.href = "genre01.html", 10000)
+    </script>
+</body> 
+</html>
